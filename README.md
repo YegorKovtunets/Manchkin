@@ -1,2 +1,2 @@
 # Portfolio1
-I created this site for portfolio too
+This site was my main work in courses
