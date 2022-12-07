@@ -1,0 +1,40 @@
+.ul_parts{
+    background-color: lightgray;
+    padding: 0.5vw;
+    
+}
+
+.order_services_radio_container{
+    display: flex;
+}
+
+.hidden{display: none;}
+
+.white{
+    color: white;
+}
+.white:hover{
+    color: #F3BE00;
+}
+.white:active{
+    color: #F3BE00;
+}
+
+.order_check_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #999;
+    margin-left: 3vw;
+}
+
+.order_services_burger_container{
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+
+.order_inputs{
+    margin-top: 5vh;
+}

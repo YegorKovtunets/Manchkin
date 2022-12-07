@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.nav_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav_li{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #000000;
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+
+header{
+    background: linear-gradient(117.26deg, rgba(251, 223, 153, 0.88) 23.98%, rgba(255, 193, 34, 0.88) 99.72%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.welcome_h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 117px;
+    
+    color: #000000;
+  
+}
+.standart_h1{  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 88px;
+    
+    color: #000000;
+    text-align: center;    
+}
+
+.welcome_h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    margin-top: 4vh;
+}
+
+.welcome_img{
+    width: 55vw;
+    position: relative;
+    right: 5vw;
+}
+.welcome_text{
+    margin-left: 15vw;
+}
+
+.Standart_btn{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: #F3BE00;
+    border-radius: 45px;
+    transition: 0.3s ease;
+}
+.Standart_btn:hover{
+    background-color: #fff;
+    color: #F3BE00;
+}
+
+.Standart_btn:active{
+    transform: scale(1.1);
+}
+.welcome_btn{
+    width: 175px;
+    height: 57px;
+}
+
+.about_h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 44px;
+    margin-top: 10vh;
+    color: #000000;
+    margin-left: 23vw;
+    width: 60vw;
+    position: relative;
+}
+
+.about_point{
+    right: 1.5vw;
+    top: 0.5vh;
+    position: relative;
+}
+
+.about_inner{
+    margin-top: 15vh;
+    padding-bottom: 25vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    background-color: black;
+}
+.footer_h4{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 7vw;
+}
+.by_egor{
+    margin-left: 25vw;
+}
+footer a{
+    color: white;
+}
+header a{
+    color: black;
+}
+.first{
+    margin-left: 12vw;
+}
+.white{
+    color: white;
+}
+.white:hover{
+    color: #F3BE00;
+}
+.white:active{
+    color: #F3BE00;
+}
+@media(max-width:720px) {
+    .welcome{
+        flex-direction: column;
+    }
+    .welcome_text{
+        margin-top: 10vh;
+    }
+    .welcome_img{
+        width: 90vw;
+    }
+    header{
+        height: 130vh;
+    }
+
+    .welcome_h3{
+        width: 75vw;
+    }
+    footer{
+        height: 30vh;
+        flex-direction: column;
+    }
+    .footer_h4{
+        margin-left: 10vw;
+        margin-bottom: 2vh;
+    }
+    .by_egor{
+        margin-top: 4vh;
+    }
+}

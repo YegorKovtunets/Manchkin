@@ -1,0 +1,148 @@
+.inner_by{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(117.26deg, rgba(251, 223, 153, 0.88) 23.98%, rgba(255, 193, 34, 0.88) 99.72%);
+}
+
+.by_block{
+    width: 40vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.by_h1{
+    font-size: 30px;
+    top: 5vh;
+    position: relative;
+}
+
+.by_inputs_coutres{
+    width: 30vw;
+    height: 10vh;
+    background-color: #F2F2F2;
+    
+}
+
+.by_input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A0A0A0;
+    width: 29vw;
+    height: 10vh;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    padding: 5vh;
+    
+}
+.countres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    background-color: lightgray;
+
+}
+.by_absolute{
+    position: absolute;
+
+}
+.by_input_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sitis{
+    padding: 1vh;
+    background-color: lightgray;
+}
+
+.btn_countres{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A0A0A0;
+    width: 30vw;
+    height: 10vh;
+    background-color: #F2F2F2;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 5vh;
+    justify-content: space-between;
+}
+
+.btn_sitis{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A0A0A0;
+    width: 30vw;
+    height: 10vh;
+    background-color: #F2F2F2;
+    padding: 0;
+    margin: 0 ;
+    display: flex;
+    align-items: center;
+    padding: 5vh;
+    justify-content: space-between;
+}
+
+.adres{
+    width: 30vw;
+}
+.by_margin_top{
+    margin-top: 5vh;
+}
+
+.by_inputs{
+    margin-top: 5vh;
+}
+
+.by_input_adres{
+    padding: 5vh;
+}
+
+.by_input_adres::placeholder{
+    opacity: 0.7;
+}
+
+.by_btn{
+    width: 270px;
+    height: 67px;
+    font-size: 20px;
+}
+
+.by_btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.hidden{
+    display: none;
+}
+@media(max-width: 720px) {
+    .by_block{
+        width: 100vw;
+    }
+    .btn_countres{
+        width: 60vw;
+    }
+    .btn_sitis{
+        width: 60vw;
+    }
+    .by_input{
+        width: 60vw;
+    }
+}

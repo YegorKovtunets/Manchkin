@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/by.css">
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+
+<body>
+    <section id="by">
+        <div class="inner_by">
+            <div class="by_block">
+                <h1 class="standart_h1 by_h1">Купить</h1>
+                <div class="by_inputs">
+                    <div class="by_input_container">
+                        <div class="">
+                            <button id="order_part_btn" class="btn_countres">Выбрать часть
+                                <svg width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.9147 8.75564L0.239632 1.93832C0.0851213 1.78065 0 1.57016 0 1.34573C0 1.12129 0.0851213 0.910811 0.239632 0.753134L0.731092 0.251086C1.05133 -0.0755998 1.57182 -0.0755998 1.89157 0.251086L7.49689 5.97575L13.1084 0.244734C13.2629 0.0870582 13.4689 0 13.6885 0C13.9084 0 14.1144 0.0870582 14.269 0.244734L14.7604 0.746782C14.9149 0.904583 15 1.11494 15 1.33938C15 1.56381 14.9149 1.77429 14.7604 1.93197L8.0792 8.75564C7.9242 8.91369 7.71725 9.0005 7.49726 9C7.2764 9.0005 7.06958 8.91369 6.9147 8.75564Z"
+                                        fill="#A0A0A0" />
+                                </svg>
+
+                            </button>
+                            <div class="parts hidden">
+                                <ul class='ul_parts'>
+                                    <li class="by_input order_inputs" id='standart'>standart</li>
+                                    <li class="by_input order_inputs" id='premium'>premium</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="by_input_amount">
+                        <div class="by_input_container">
+                            <input type="number" class="by_input adres by_margin_top by_input_adres"
+                                placeholder="Количество" id="order_amounts">
+                        </div>
+                    </div>
+                    <div class="by_input_container">
+                        <div class="by_inputs_cous ">
+                            <button id="order_services_btn" class="by_margin_top btn_sitis ">Дополнительные фунции
+                                <svg width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.9147 8.75564L0.239632 1.93832C0.0851213 1.78065 0 1.57016 0 1.34573C0 1.12129 0.0851213 0.910811 0.239632 0.753134L0.731092 0.251086C1.05133 -0.0755998 1.57182 -0.0755998 1.89157 0.251086L7.49689 5.97575L13.1084 0.244734C13.2629 0.0870582 13.4689 0 13.6885 0C13.9084 0 14.1144 0.0870582 14.269 0.244734L14.7604 0.746782C14.9149 0.904583 15 1.11494 15 1.33938C15 1.56381 14.9149 1.77429 14.7604 1.93197L8.0792 8.75564C7.9242 8.91369 7.71725 9.0005 7.49726 9C7.2764 9.0005 7.06958 8.91369 6.9147 8.75564Z"
+                                        fill="#A0A0A0" />
+                                </svg>
+                            </button>
+                            <div class="services hidden">
+                                <div class="order_services_burger_container ">
+                                    <div class="order_services_radio_container">
+                                        <input type="checkbox" class="order_services_radio" name="services">
+                                        <p class="order_check_text">Мега безопастая доставка</p>
+                                    </div>
+                                    <div class="order_services_radio_container">
+                                        <input type="checkbox" class="order_services_radio" name="services">
+                                        <p class="order_check_text">Чек в коробку</p>
+                                    </div>
+                                    <div class="order_services_radio_container">
+                                        <input type="checkbox" class="order_services_radio" name="services">
+                                        <p class="order_check_text">Подписаться на рассылку</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="by_btn_container">
+                    <button class="Standart_btn by_btn white"><a class="white" href="./by.html">Купить</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/order.js"></script>
+
+</body>
+
+</html>
